@@ -1,0 +1,24 @@
+{
+  "name": "augur-adapter",
+  "version": "0.0.1",
+  "description": "Augur Adapter Smart Contracts",
+  "main": "AugurNetwork.sol",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "keywords": [
+    "bZx",
+    "Augur",
+    "ethereum"
+  ],
+  "author": "Aliaksei Hiatsevich <aliaksei.hiatsevich@gmail.com>",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "ganache-cli": "^6.1.8",
+    "truffle": "^4.1.14",
+    "truffle-hdwallet-provider-privkey": "^0.3.0"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "1.12.0"
+  }
+}
